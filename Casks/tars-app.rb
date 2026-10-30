@@ -1,6 +1,6 @@
 cask "tars-app" do
-  version "0.3.0"
-  sha256 "db9b9be7cf7e030146bdc2275b223ef57060208294eb88abe3051f98fb68baab"
+  version "0.3.1"
+  sha256 "8334309010ad5783849561d735a0a906c2d28baea0c4bb082e35cc3d585abfbd"
 
   url "https://github.com/actuallyakshat/tars/releases/download/v#{version}/Tars-#{version}-macos-universal.zip"
   name "Tars"
