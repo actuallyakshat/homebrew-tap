@@ -1,6 +1,6 @@
 cask "watchsync" do
-  version "0.2.4"
-  sha256 "14f0ccf541b503ca4eefd2c35c68ecc73361742413e41b1c09c57a12ee77ad67"
+  version "0.3.0"
+  sha256 "2ca07c59b676da8aa451bf1a7af4193d63c09449d4efbf0352c470e1e432a0ca"
 
   url "https://github.com/actuallyakshat/watchsync/releases/download/v#{version}/WatchSync-#{version}-macos-universal.zip"
   name "WatchSync"
