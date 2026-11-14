@@ -1,6 +1,6 @@
 cask "watchsync" do
-  version "0.3.0"
-  sha256 "2ca07c59b676da8aa451bf1a7af4193d63c09449d4efbf0352c470e1e432a0ca"
+  version "0.4.0"
+  sha256 "69b31a6ee116802d8efaeead00425f115ea280ecb82a201e01390c2e5930e955"
 
   url "https://github.com/actuallyakshat/watchsync/releases/download/v#{version}/WatchSync-#{version}-macos-universal.zip"
   name "WatchSync"
@@ -8,6 +8,7 @@ cask "watchsync" do
   homepage "https://github.com/actuallyakshat/watchsync"
 
   depends_on formula: "mpv"
+  depends_on formula: "croc"
   depends_on :macos
 
   app "WatchSync.app"
